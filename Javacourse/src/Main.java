@@ -8,7 +8,7 @@ public class Main {
 
         //Swapping 2 variables
         /*String x = "water";
-        String y = "kool-Aid";
+        String y = "V cola";
         String temp;
         temp=x;
         x=y;
@@ -116,7 +116,7 @@ public class Main {
 
         /* Switch statement: allows a variable to be tested for equality
         against a list of values
-        String day = "jegabo";
+        String day = "hamda";
 
         switch (day){
             case "Saturday":
@@ -149,7 +149,7 @@ public class Main {
                 break;
 
             default:
-                System.out.println("bro that's def not a day");
+                System.out.println("bro that's not a day");
         }*/
 
 
@@ -160,10 +160,10 @@ public class Main {
          */
 
 
-        //while loop = executes a block of code as long as it's condition remains true
+        // while loop = executes a block of code as long as it's condition remains true
 
 
-        //for loop = executes a block of code a limited amount of times
+        // for loop = executes a block of code a limited amount of times
 
 
         //Nested loops
@@ -176,7 +176,7 @@ public class Main {
         }*/
 
 
-        //Array = used to store multiple values in a single variable
+        // Array = used to store multiple values in a single variable
         /*String[] cars = {"camaro","corvette","Tesla"}; First method to create an array
         cars[0] = "Mustang"; //Replace
         System.out.println(cars[0]); // Output: Mustang
@@ -210,7 +210,7 @@ public class Main {
         // Useful string methods: in the video
 
 
-        //Wrapper class = Provides a way to use primitive data type as reference data types
+        // Wrapper class = Provides a way to use primitive data type as reference data types
         //                reference data types contain useful methods
         //                can be used with collections (ex.ArrayList)
 
@@ -424,8 +424,7 @@ public class Main {
         /*friend frnd1 = new friend("Ahmed");
         friend frnd2 = new friend("Ali");
         friend frnd3 = new friend("Omar");
-        friend frnd4 = new friend("Abi bakr");
-
+        friend frnd4 = new friend("Abo bakr");
 
         //System.out.println(friend.NumberOFfriends);
         friend.DisplayFriends();*/
@@ -433,11 +432,59 @@ public class Main {
 
         // Inheritance = the process where one class acquires
         //               the attributes and methods of another.
-        car car1 = new car();
+        /*car car1 = new car();
         Bicycle bike1 = new Bicycle();
 
         car1.go();
-        bike1.stop();            // They inherited from the vehicle class
+        bike1.stop();*/            // They inherited from the vehicle class
+
+
+        // method overriding = Declaring a method in subclass,
+        //                     which is already present in parent class.
+        //                     done so that a child class can give its own implementation
+
+
+        // Super keyword = keyword refers to the superclass (parent) of an object
+       //                  very similar to the "this" keyword
+      //                   (assuming that you are using inheritance)
+       /* Hero hero1 = new Hero("Batman",40,"$$$");
+        Hero hero2 = new Hero("3nab man",25,"his intelligence");
+
+        System.out.println(hero1.toString());
+        System.out.println(hero2.toString());*/
+
+
+        // Abstract = abstract classes cannot be created, but they can have a subclass
+        //            abstract methods are declared without an implementation
+        //            (it adds a layer of security)
+
+        //Vehicle vehicle = new Vehicle();
+        // You can no longer create an instance of the vehicle class,
+        // because it's abstract,and a vehicle object is too vague
+        // so we force the user to pick a certain vehicle that inherit from the vehicle class
+
+       /* car car1 = new car();
+        Bicycle bike1 = new Bicycle();
+
+        car1.go();
+        bike1.go();*/
+
+
+        // Access modifiers
+
+//**************** Access Levels *******************
+/*   Modifier | Class | Package | Subclass | World |
+* Public      |   Y   |    Y    |     Y    |   Y   |
+* Protected   |   Y   |    Y    |     Y    |   N   |
+* No modifier |   Y   |    Y    |     N    |   N   |
+* Private     |   Y   |    N    |     N    |   N   |
+* **************************************************/
+
+        // Go to Pack1 and Pack2 for explanation
+
+
+
+
 
 
 

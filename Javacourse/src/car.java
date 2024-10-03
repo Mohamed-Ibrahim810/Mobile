@@ -31,8 +31,15 @@ public class car extends Vehicle {
     //Inheritance
     // This is a subclass
 
-    int wheels = 4;
-    int doors = 4;
+    /*int wheels = 4;
+    int doors = 4;*/
+
+
+    //abstract
+    @Override
+    void go() {
+        System.out.println("the driver is going with his car");
+    }
 
 
 
